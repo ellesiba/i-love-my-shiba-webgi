@@ -3,6 +3,21 @@ body {
   overflow: hidden;
   margin: 0px;
 }
+
+.nav-bar{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+#logo{
+  height: auto;
+  width: 680px;
+  margin-left: -45%;
+  margin-top: -55%;
+}
+
 #webgi-canvas {
   width: 100%;
   height: 100%;
