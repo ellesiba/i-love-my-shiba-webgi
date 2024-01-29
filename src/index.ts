@@ -31,6 +31,9 @@ async function setupViewer(){
     // Initialize the viewer
     const viewer = new ViewerApp({
         canvas: document.getElementById('webgi-canvas') as HTMLCanvasElement,
+        useRgbm: false,
+        // useGBufferDepth: false,
+        // isAntialiased: false,
     })
 
     // Add plugins individually.

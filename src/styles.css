@@ -2,6 +2,8 @@ body {
   font-family: sans-serif;
   overflow: hidden;
   margin: 0px;
+  /* background-image: url("Background.png"); */
+  background-color: peachpuff;
 }
 
 .nav-bar{
@@ -13,7 +15,7 @@ body {
 
 #logo{
   height: auto;
-  width: 680px;
+  width: 900px;
   margin-left: -45%;
   margin-top: -55%;
 }
